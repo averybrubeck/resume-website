@@ -1,0 +1,140 @@
+
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p, ul, li {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #004d67;
+  color: #e1b2a8;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.title1 {
+  opacity: .60;
+  color: #e1b2a8;
+  line-height: 1.6;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+p {
+  color: #e1b2a8;
+  font-size: 1rem;
+  font-family: "Nuito", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  color: #d15f20;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Nuito", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.socialsBar {
+box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+--vh: 4.8px;
+--vw: 8px;
+}
+
+.linkedInIcon {
+  display: inline-flex;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.githubIcon {
+  display: inline-flex;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Navigation styles */
+nav {
+  background-color: #01435d;
+  color: #e1b2a8;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #e1b2a8;
+  font-size: 1rem;
+  font-family: "Nuito", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 3px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #004d67;
+}
+
+/* Section styles */
+.home {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #01435d;
+  border-radius: 5px;
+}
+
+
+
+
+/* Project styles */
+.project {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100vh;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; 
+  margin: 0;
+  background-color: #004d67;
+}
+.copyright {
+  opacity: .5;
+}
