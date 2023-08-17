@@ -1,8 +1,7 @@
 
 /* Reset some default browser styles */
 body, h1, h2, h3, h4, p, ul, li {
-    margin: 0;
-    padding: 0;
+   
     font-family: 'Roboto', sans-serif
 }
 
@@ -14,6 +13,10 @@ body {
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -40,7 +43,6 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -56,13 +58,12 @@ nav ul li a:hover {
     background-color: #0077cc;
 }
 
-/* Section styles */
 .home {
     margin: 20px 0;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-}
+ }
 
 
 
@@ -71,14 +72,22 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
-.footer {
-    text-align: center;
-    height: 100px;
-    font-size: 10px;
-    margin-top: 20px;
+.header,
+.footer{
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer {
+    background-color: #eee;
+    padding: 16px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 
